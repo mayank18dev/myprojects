@@ -119,6 +119,7 @@ a {
 							.toUpperCase())
 							&& document.getElementById("emails").value != '') {
 						alert('user id already exist');
+						 location.reload();
 						flag = 1;
 
 					}
@@ -150,7 +151,7 @@ a {
 									"https://mytechops-c17d1.firebaseio.com/test1/user.json");
 
 					xhr1.send(data);
-				//	window.location.replace("file:///mnt/sdcard/AppInventor/assets/index.html");
+				window.location.replace("index.html");
 
 				}
 
